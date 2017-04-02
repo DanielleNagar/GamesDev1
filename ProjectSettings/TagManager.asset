@@ -38,6 +38,21 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 1907566847
+    locked: 0
+  - name: Platforms
+    uniqueID: 2278803683
+    locked: 0
+  - name: Enemies
+    uniqueID: 41280041
+    locked: 0
+  - name: Bullets
+    uniqueID: 4196380261
+    locked: 0
+  - name: Player
+    uniqueID: 3980937661
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
