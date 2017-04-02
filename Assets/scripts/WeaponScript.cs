@@ -41,7 +41,7 @@ public class WeaponScript : MonoBehaviour {
 		if (CanAttack)
 		{
 			shootCooldown = shootingRate;
-			Debug.Log ("attacking");
+			//Debug.Log ("attacking");
 			// Create a new shot
 			var shotTransform = Instantiate(shotPrefab);
 			//Debug.Log (shotTransform == null);

@@ -44,7 +44,9 @@ public class HealthScript : MonoBehaviour {
 			if (shot.isEnemyShot != isEnemy)
 			{
 				Damage(shot.damage);
-
+				GameObject es = (GameObject.FindGameObjectWithTag ("Finsih"));//.GetComponent<EnemySpawn>;
+				Winning x=(Winning) es.GetComponent(typeof(Winning));
+				x.Kill ();
 				// Destroy the shot
 				Destroy(shot.gameObject); // Remember to always target the game object, otherwise you will just remove the script
 			}
