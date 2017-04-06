@@ -37,13 +37,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1359291090019242}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 14.584676, y: 9.462582, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!50 &50170834973150926
 Rigidbody2D:
   serializedVersion: 4
@@ -127,9 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0dfb7f7fd6df0b48ab2000d55b623bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p1: {fileID: 1003974779192568, guid: 779050092804fb94cb4dfddba9fba31a, type: 2}
-  p2: {fileID: 1083048377870814, guid: 5eeb5793ffc44dc48bb0364007409584, type: 2}
-  speed: 20
+  speed: 0.1
   direction: {x: 0, y: 0}
 --- !u!212 &212375678351854026
 SpriteRenderer:
